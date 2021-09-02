@@ -48,9 +48,12 @@ const isAdult = people.some(person => {
   // Array.prototype.find()
   // Find is like filter, but instead returns just the one you are looking for
   // find the comment with the ID of 823423
-    const findId = comments.find(comment=> comment.text === 'Super good');
+    const findId = comments.find(comment => comment.text === 'Super good');
     console.log(findId);
   // Array.prototype.findIndex()
   // Find the comment with this ID
   // delete the comment with the ID of 823423
+    const index = comments.findIndex(comment => comment.text === 'Super good');
+    console.log(index);
+
     
