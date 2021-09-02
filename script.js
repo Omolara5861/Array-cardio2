@@ -55,5 +55,7 @@ const isAdult = people.some(person => {
   // delete the comment with the ID of 823423
     const index = comments.findIndex(comment => comment.text === 'Super good');
     console.log(index);
+    const remove = comments.splice(1, 1);
+    console.log(remove);
+    console.log(comments);
 
-    
