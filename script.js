@@ -48,9 +48,7 @@ const isAdult = people.some(person => {
   // Array.prototype.find()
   // Find is like filter, but instead returns just the one you are looking for
   // find the comment with the ID of 823423
-    const findId = comments.find(function(id) {
-        return id.id === 823423;
-    });
+    const findId = comments.find(id => id.id === 823423);
     console.log(findId);
   // Array.prototype.findIndex()
   // Find the comment with this ID
